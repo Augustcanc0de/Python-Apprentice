@@ -9,15 +9,23 @@ to see how to use the turtle commands.
 """
 
 # These lines are needed in most turtle programs
+
 import turtle                           # Tell Python we want to work with the turtle
-turtle.setup (width=600, height=600)    # Set the size of the window
+turtle.setup(width=600, height=600)     # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
 
-# Use tina.forward() and tina.left() to draw a triangle
-# Make each side of the triangle a different color with 
-# tina.pencolor()
+tina.shape('turtle')                    # Set the shape of the turtle to a turtle
+tina.speed(1)                           # Make the turtle move as fast, but not too fast.
 
-... # Your code here
+tina.pencolor('cyan')
+tina.forward(90) 
+tina.left(120)
 
-turtle.exitonclick()                    # Close the window when we click on it
+tina.pencolor('red')
+tina.forward(90)
+tina.left(120)
+
+tina.pencolor('magenta')
+tina.forward(90)
+tina.left(120)
