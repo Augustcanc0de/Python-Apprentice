@@ -26,6 +26,8 @@ tina.pencolor('red')
 tina.forward(90)
 tina.left(120)
 
-tina.pencolor('magenta')
+tina.pencolor('cyan')
 tina.forward(90)
 tina.left(120)
+
+turtle.exitonclick()
